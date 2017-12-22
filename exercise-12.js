@@ -6,7 +6,7 @@ function balikString(str) {
   return newString;
 }
 
-balikString("hello world!")
+console.log(balikString("hello world!"));
 // in console,
 // input: balikString("hello world!")
 // output: "!dlrow olleh"
