@@ -51,7 +51,7 @@ var namaBulan;
 console.log(namaBulan);
       angkaBulan.sort(function(value1, value2) { return value1 < value2});
 console.log(angkaBulan);
-var tanggal = angkaBulan.join("-");
+var tanggal = input[3].split('/').join("-");
 console.log(tanggal);
       input.splice(0,6, input[1].split("").slice(0, 14).join(''));
 console.log(input);
