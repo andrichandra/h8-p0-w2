@@ -49,10 +49,15 @@ var namaBulan;
         default:
       }
 console.log(namaBulan);
-      angkaBulan.sort(function(value1, value2) { return value1 < value2});
+
+      angkaBulan.sort(function(a,b) {
+        return b-a
+      });
 console.log(angkaBulan);
-var tanggal = input[3].split('/').join("-");
-console.log(tanggal);
+
+var tanggalStrip = input[3].split('/').join("-");
+console.log(tanggalStrip);
+
       input.splice(0,6, input[1].split("").slice(0, 14).join(''));
 console.log(input);
     }
